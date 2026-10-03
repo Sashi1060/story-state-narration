@@ -1,0 +1,195 @@
+{
+ "videos": 23,
+ "channels": {
+  "Hein Recap": 20,
+  "Jinwoo Recap": 3
+ },
+ "pacing_medians": {
+  "words_per_minute": 216.8,
+  "median_word_gap_s": 0.24,
+  "pauses_over_1s_per_minute": 0.11,
+  "minute_wpm_cv": 0.043,
+  "speech_share_of_video": 1.0
+ },
+ "drama_vs_other_minutes": {
+  "videos_with_both": 23,
+  "median_difference_wpm": 2.1
+ },
+ "calques": {
+  "white moonlight": {
+   "videos": 10,
+   "source_term": "白月光",
+   "gloss": "idealised, unforgettable first love"
+  },
+  "green hat": {
+   "videos": 4,
+   "source_term": "绿帽子",
+   "gloss": "being cheated on"
+  },
+  "white lotus": {
+   "videos": 3,
+   "source_term": "白莲花",
+   "gloss": "falsely innocent woman"
+  },
+  "green tea": {
+   "videos": 4,
+   "source_term": "绿茶",
+   "gloss": "manipulative woman posing as innocent"
+  },
+  "face slap": {
+   "videos": 4,
+   "source_term": "打脸",
+   "gloss": "humiliating comeback"
+  },
+  "transmigration": {
+   "videos": 7,
+   "source_term": "穿越 / 穿书",
+   "gloss": "transported into another body or book"
+  },
+  "rebirth": {
+   "videos": 2,
+   "source_term": "重生",
+   "gloss": "living life again with prior memories"
+  },
+  "original host": {
+   "videos": 4,
+   "source_term": "原主",
+   "gloss": "body's previous occupant"
+  },
+  "cannon fodder": {
+   "videos": 3,
+   "source_term": "炮灰",
+   "gloss": "disposable minor character"
+  },
+  "crematorium": {
+   "videos": 1,
+   "source_term": "追妻火葬场",
+   "gloss": "regretful pursuit of a mistreated spouse"
+  },
+  "pig liver": {
+   "videos": 2,
+   "source_term": "猪肝色",
+   "gloss": "face turning dark red"
+  },
+  "scumbag": {
+   "videos": 7,
+   "source_term": "渣男 / 渣女",
+   "gloss": "faithless partner"
+  }
+ },
+ "name_overlap": {
+  "within_channel_mean_name_jaccard": 0.092,
+  "cross_channel_mean_name_jaccard": 0.0923,
+  "within_pairs": 193,
+  "cross_pairs": 60,
+  "cross_pairs_sharing_any_name": 52
+ },
+ "top_names": [
+  {
+   "name": "Saraphina",
+   "videos": 19,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 1353,
+   "variants": "Saraphina; Serafina"
+  },
+  {
+   "name": "Caspian",
+   "videos": 11,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 620,
+   "variants": "Caspian"
+  },
+  {
+   "name": "Sterling",
+   "videos": 8,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 446,
+   "variants": "Sterling"
+  },
+  {
+   "name": "Thorne",
+   "videos": 6,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 65,
+   "variants": "Theren; Thorn; Thorne"
+  },
+  {
+   "name": "Vance",
+   "videos": 5,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 193,
+   "variants": "Vance"
+  },
+  {
+   "name": "Thaddius",
+   "videos": 4,
+   "channels": "Hein Recap",
+   "mentions": 120,
+   "variants": "Thaddius"
+  },
+  {
+   "name": "Sarah",
+   "videos": 4,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 66,
+   "variants": "Sarah"
+  },
+  {
+   "name": "Barnaby",
+   "videos": 4,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 59,
+   "variants": "Barnaby"
+  },
+  {
+   "name": "Vesper",
+   "videos": 3,
+   "channels": "Hein Recap",
+   "mentions": 134,
+   "variants": "Vesper"
+  },
+  {
+   "name": "Kaylin",
+   "videos": 3,
+   "channels": "Hein Recap",
+   "mentions": 90,
+   "variants": "Kalin; Kaylan; Kaylen; Kaylin"
+  },
+  {
+   "name": "Ara",
+   "videos": 3,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 86,
+   "variants": "Aara; Ara"
+  },
+  {
+   "name": "Alora",
+   "videos": 3,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 83,
+   "variants": "Alara; Alora"
+  },
+  {
+   "name": "Valyrian",
+   "videos": 2,
+   "channels": "Hein Recap",
+   "mentions": 78,
+   "variants": "Valyrian"
+  },
+  {
+   "name": "Cleo",
+   "videos": 2,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 69,
+   "variants": "Cal; Cleo"
+  },
+  {
+   "name": "Valyria",
+   "videos": 2,
+   "channels": "Hein Recap; Jinwoo Recap",
+   "mentions": 55,
+   "variants": "Valyri; Valyria"
+  }
+ ],
+ "generated": "2026-10-03T06:44:14.711342+00:00"
+}

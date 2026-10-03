@@ -1,0 +1,187 @@
+{
+  "version": "1.0.1",
+  "method": "conservative-title-rules-v1",
+  "events": {
+    "BETRAYAL": {
+      "description": "Explicit betrayal wording.",
+      "pattern": "\\b(?:betray(?:ed|al|s)?|traitorous)\\b",
+      "subsumes": [
+        "FAMILY_CONFLICT",
+        "SIBLING_CONFLICT"
+      ]
+    },
+    "ROMANTIC_REJECTION": {
+      "description": "Explicit romantic rejection or broken engagement.",
+      "pattern": "\\b(?:dumped (?:my |her |his )?(?:girlfriend|boyfriend|wife|husband)|breaking (?:our|the) engagement|called off (?:our|the) wedding|breakup)\\b"
+    },
+    "CHEATING": {
+      "description": "Explicit cheating wording; local negations excluded.",
+      "pattern": "\\bcheat(?:ed|ing|s)?\\b"
+    },
+    "ABANDONMENT": {
+      "description": "Explicit being abandoned or kicked out.",
+      "pattern": "\\b(?:abandon(?:ed|ment)?|kick(?:ed)? me out)\\b"
+    },
+    "HUMILIATION": {
+      "description": "Explicit humiliation or taunting wording.",
+      "pattern": "\\b(?:humiliat(?:ed|ion)|taunt(?:ed)?)\\b"
+    },
+    "STATUS_REVEAL": {
+      "description": "Explicit discovery of a status identity.",
+      "pattern": "\\b(?:discovered|revealed) (?:that )?I (?:was|am) (?:a |the )?(?:billionaire|CEO|heir)\\b"
+    },
+    "IDENTITY_REVEAL": {
+      "description": "Explicit revelation of identity.",
+      "pattern": "\\b(?:revealed (?:my|his|her) (?:true )?identity|identity (?:was )?revealed)\\b"
+    },
+    "REBIRTH": {
+      "description": "Explicit reborn/rebirth wording.",
+      "pattern": "\\b(?:reborn|rebirth)\\b"
+    },
+    "REGRESSION": {
+      "description": "Explicit temporal regression, not ordinary return.",
+      "pattern": "\\b(?:regressed in time|returned to the past)\\b"
+    },
+    "REVENGE": {
+      "description": "Explicit revenge wording; not inferred from engagement.",
+      "pattern": "\\b(?:revenge|avenged)\\b"
+    },
+    "REPLACEMENT_RELATIONSHIP": {
+      "description": "Explicit choosing/marrying a partner relative, or alternative romantic choice.",
+      "pattern": "\\bI (?:chose|choose|married|wed) (?:her|his) (?:(?:sexy|sweet|older|younger|beautiful) )?(?:sister|brother|cousin)\\b"
+    },
+    "MARRIAGE": {
+      "description": "Explicit marriage wording; cancellation/negation excluded locally.",
+      "pattern": "\\b(?:married|marry|marriage|wed)\\b"
+    },
+    "DIVORCE": {
+      "description": "Explicit divorce wording.",
+      "pattern": "\\bdivorc(?:e|ed|ing)\\b"
+    },
+    "ESCAPE": {
+      "description": "Explicit escape/runaway wording, not generic leaving.",
+      "pattern": "\\b(?:escap(?:e|ed|ing)|runaway)\\b"
+    },
+    "RETURN": {
+      "description": "Explicit returning wording; temporal regression handled separately.",
+      "pattern": "\\b(?:returned|returns|came back|reuniting)\\b"
+    },
+    "REGRET": {
+      "description": "Explicit regret/rue wording.",
+      "pattern": "\\b(?:regret(?:ted|s)?|rues?|rue)\\b"
+    },
+    "FACE_SLAP": {
+      "description": "Literal face-slap wording only.",
+      "pattern": "\\b(?:slapped (?:my|his|her) face|face[- ]slap(?:ped)?)\\b"
+    },
+    "POWER_GAIN": {
+      "description": "Explicit gain/awakening of powers.",
+      "pattern": "\\b(?:gained (?:new |super)?powers?|awakened (?:my |his |her )?powers?)\\b"
+    },
+    "WEALTH_REVEAL": {
+      "description": "Explicit wealth revelation, not a bare wealth role.",
+      "pattern": "\\b(?:revealed (?:my|his|her) (?:wealth|fortune)|discovered I was a billionaire)\\b",
+      "subsumes": [
+        "STATUS_REVEAL"
+      ]
+    },
+    "FAMILY_CONFLICT": {
+      "description": "Explicit conflict within family.",
+      "pattern": "\\b(?:family feud|family conflict|family betrayed me)\\b"
+    },
+    "SIBLING_CONFLICT": {
+      "description": "Explicit conflict with siblings.",
+      "pattern": "\\b(?:sibling rivalry|(?:brother|sister) betrayed me)\\b"
+    },
+    "ARRANGED_RELATIONSHIP": {
+      "description": "Explicit arranged marriage/engagement.",
+      "pattern": "\\barranged (?:marriage|engagement)\\b"
+    },
+    "SYSTEM_ACTIVATION": {
+      "description": "Explicit system activation, not possession of a system.",
+      "pattern": "\\b(?:system activated|activated (?:my|the) system)\\b"
+    },
+    "REINCARNATION": {
+      "description": "Explicit reincarnation/transmigration wording.",
+      "pattern": "\\b(?:reincarnat(?:ed|ion)|transmigrat(?:ed|ion))\\b"
+    },
+    "THOUGHTS_EXPOSED": {
+      "description": "Explicit thought hearing/reading, not ordinary thinking.",
+      "pattern": "\\b(?:hear (?:all )?my (?:sarcastic )?(?:thoughts|mind)|overheard my thoughts|mind[- ]reading)\\b"
+    },
+    "ROMANTIC_BETRAYAL": {
+      "description": "Abstraction only when the partner-betrayal relation has direct evidence.",
+      "pattern": null
+    },
+    "CLOSE_ASSOCIATE_INVOLVEMENT": {
+      "description": "Abstraction only for explicit partner choice of narrator close associate.",
+      "pattern": null
+    },
+    "FAMILY_REGRET": {
+      "description": "Reserved: no automatic rule until familial subject can be resolved reliably.",
+      "pattern": null
+    },
+    "OTHER": {
+      "description": "Reserved for manual extension; never forced as a default.",
+      "pattern": null
+    }
+  },
+  "roles": {
+    "FIRST_PERSON_NARRATOR": {
+      "description": "First-person speaker reference; not independently verified protagonist.",
+      "pattern": "\\b(?:I|me|my)\\b",
+      "field": "protagonist_role"
+    },
+    "ROMANTIC_PARTNER": {
+      "description": "Explicit narrator romantic partner.",
+      "pattern": "\\bmy (?:(?:CEO|heiress|billionaire|rich|sexy|boss|loyal) )?(?:wife|husband|fianc[eé]e?|girlfriend|boyfriend|GF|bride)\\b",
+      "field": "romantic_partner_role"
+    },
+    "FAMILY_MEMBER": {
+      "description": "Family role is mentioned; its narrative function is unresolved.",
+      "pattern": "\\b(?:mother|father|mom|dad|parents?|sisters?|brothers?|cousins?|daughter|son|family|in-laws)\\b",
+      "field": "family_relation_role"
+    },
+    "AUTHORITY_OR_STATUS": {
+      "description": "Status/authority word is mentioned; no event or ownership implied.",
+      "pattern": "\\b(?:CEO|billionaire|heiress|heir|boss|teacher|doctor)\\b",
+      "field": "authority_or_status_role"
+    },
+    "CLOSE_ASSOCIATE": {
+      "description": "Narrator close associate explicitly named relationally.",
+      "pattern": "\\bmy (?:best friend|brother|sister|cousin|childhood friend)\\b",
+      "field": null
+    },
+    "PARTNER_RELATIVE": {
+      "description": "Partner relative explicitly referenced.",
+      "pattern": "\\b(?:her|his) (?:(?:sexy|sweet|older|younger|beautiful) )?(?:sister|brother|cousin)\\b",
+      "field": null
+    }
+  },
+  "relations": {
+    "PARTNER_BETRAYS_PROTAGONIST": {
+      "description": "Partner explicitly cheats on narrator or leaves narrator for someone.",
+      "pattern": "\\bmy (?:(?:CEO|heiress|billionaire|rich|sexy|boss|loyal) )?(?:wife|husband|fianc[eé]e?|girlfriend|boyfriend|GF|bride)\\s+(?:cheated on me|left me for)\\b"
+    },
+    "PARTNER_CHOOSES_CLOSE_ASSOCIATE": {
+      "description": "Partner explicitly cheats/leaves with narrator close associate.",
+      "pattern": "\\bmy (?:(?:CEO|heiress|billionaire|rich|sexy|boss|loyal) )?(?:wife|husband|fianc[eé]e?|girlfriend|boyfriend|GF|bride)\\s+(?:cheated on me with|left me for)\\s+my (?:best friend|brother|sister|cousin|childhood friend)\\b"
+    },
+    "PROTAGONIST_CHOOSES_PARTNER_RELATIVE": {
+      "description": "Narrator explicitly chooses/marries a partner relative.",
+      "pattern": "\\bI (?:chose|choose|married|wed) (?:her|his) (?:(?:sexy|sweet|older|younger|beautiful) )?(?:sister|brother|cousin)\\b"
+    },
+    "PROTAGONIST_ESCAPES_PARTNER": {
+      "description": "Narrator explicitly escapes a romantic partner.",
+      "pattern": "\\bI(?:'m| am)? escap(?:e|ed|ing) my (?:(?:billionaire|CEO|rich) )?(?:wife|husband|fianc[eé]e?|girlfriend|boyfriend)\\b"
+    }
+  },
+  "negation_pattern": "\\b(?:not|never|no|didn['’]t|don['’]t|doesn['’]t|won['’]t|can['’]t|failed to|refused to|without)\\b",
+  "notes": [
+    "Patterns describe title wording, including proposed/quoted events; not verified story events.",
+    "Text order is not established story chronology.",
+    "Local negation guard is approximate; false negatives are preferred.",
+    "Unmatched roles/events remain empty; OTHER is not a fallback.",
+    "Overlapping labels listed in subsumes remain raw evidence but collapse to one abstract event; one wording span must not manufacture chronology."
+  ]
+}

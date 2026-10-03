@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------
+# Secrets: never commit
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
+
+# ---------------------------------------------------------------
+# Python environment and build artefacts
+# ---------------------------------------------------------------
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---------------------------------------------------------------
+# Data: publish derived exports only
+# ---------------------------------------------------------------
+# Excluded: the SQLite database (raw API responses), transcript text
+# (third-party content), model and embedding caches, logs, run reports.
+data/*
+!data/exports/
+data/exports/*.tmp*
+!data/transcripts/
+data/transcripts/*
+!data/transcripts/transcript_manifest.csv
+!data/transcripts/transcript_provenance.json
+*.log
+*.tmp
+*.tmp.npz
+
+# ---------------------------------------------------------------
+# Private working documents: remove a line to publish that file
+# ---------------------------------------------------------------
+# Paper drafts and backups (publish the paper via the venue/arXiv instead)
+paper*.md
+paper*.docx
+paper*.pdf
+abstract*.md
+abstract-claim-audit-report-*.txt
+# Literature reviews generated with ChatGPT Deep Research
+review_report.md
+new_review_report.md
+# Planning, specifications and internal reports
+purpose*.md
+report_v*.md
+prompt*.md
+*-implementation-report.txt
+channel-*-report.txt
+channel-search-output.txt
+# Legacy live-search script: superseded by src/resolve_channels.py and prints raw API errors
+tests.py
+
+# ---------------------------------------------------------------
+# Editor and OS files
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+.claude/
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini

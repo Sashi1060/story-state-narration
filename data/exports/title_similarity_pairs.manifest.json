@@ -1,0 +1,375 @@
+{
+  "created_at": "2026-10-01T08:57:22.292754+00:00",
+  "input_path": "D:\\Green Tea\\data\\exports\\research_video_dataset.csv",
+  "analysis_versions": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "input_sha256": "de439316f9f1c4502497556135de4979243f18126b199d044559fd9797e26127",
+  "model": {
+    "schema": 1,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "input_text": "original title",
+    "device": "cpu",
+    "max_seq_length": 256,
+    "normalized_embeddings": true,
+    "versions": {
+      "sentence-transformers": "5.7.0",
+      "transformers": "5.18.0",
+      "torch": "2.14.1",
+      "numpy": "2.5.3"
+    },
+    "videos": [
+      {
+        "video_id": "0g2x-VQw38Q",
+        "video_title": "📕My wife said I ignored her breakup, so I brought 8 girlfriends to comfort her—she totally broke!"
+      },
+      {
+        "video_id": "0mlUQlBMMQY",
+        "video_title": "My Runaway Billionaire Bride Escaped To A Remote Town - Jinwoo Recap"
+      },
+      {
+        "video_id": "1w9s7-HVNF8",
+        "video_title": "I Dumped My Girlfriend With Cash To Hide My Cancer, Now She's The Doctor Saving My Life - Hein Recap"
+      },
+      {
+        "video_id": "2ywByLW7OJE",
+        "video_title": "I'm Escaping My Billionaire Wife! - Hein Recap"
+      },
+      {
+        "video_id": "3DwZyWBN31A",
+        "video_title": "Reborn: My Whole Rich Family Can Hear My Mind—Now I'm Somehow the Most Spoiled Favorite in the House"
+      },
+      {
+        "video_id": "4A3zz8lf8EE",
+        "video_title": "I Became A Billionaire Heiress's Butler, But She Can Hear All My Sarcastic Thoughts! - Hein Recap"
+      },
+      {
+        "video_id": "5FY8SsRjahk",
+        "video_title": "📕I charged my wife every time her fl taunted me—then she panicked when our daughter and I moved on!"
+      },
+      {
+        "video_id": "5a5Js5uVK5M",
+        "video_title": "📕Once I learned the plot, I let my wife see her first love—even told her to dress sexier. She froze!"
+      },
+      {
+        "video_id": "5uu-bOF5LT0",
+        "video_title": "📕My GF left with another guy, said her flight was delayed—then her Uber arrived: me, driving her car"
+      },
+      {
+        "video_id": "7FM2tlQ-pCk",
+        "video_title": "I Rejected Her Twice In School, Now She Bought My Company To Force Me To Date Her! - Jinwoo Recap"
+      },
+      {
+        "video_id": "AFHLIEaSluo",
+        "video_title": "Outplaying The White Lotus - Hein Recap"
+      },
+      {
+        "video_id": "En3LA6oNvzs",
+        "video_title": "Reborn: My 6 Beautiful Sisters & Parents Can Hear My Thoughts—but Now They Regret It!"
+      },
+      {
+        "video_id": "EzPOGE4xXow",
+        "video_title": "Reborn: I Choose My Devoted CEO Wife & Daughter over My Crush, Towards a Happy Ending"
+      },
+      {
+        "video_id": "F4GFzqbaqn0",
+        "video_title": "How The Betrayed Husband Become A Global Star! - Jinwoo Recap"
+      },
+      {
+        "video_id": "FIsCGrW7Iuw",
+        "video_title": "My Wife Let Her Ex Destroy My Dead Mom's Keepsake - Hein Recap"
+      },
+      {
+        "video_id": "Fy-Ci_gAghs",
+        "video_title": "I Turned A Poor Girl Into A Billionaire - Hein Recap"
+      },
+      {
+        "video_id": "G7dKVCViwOc",
+        "video_title": "I Rejected A Billionaire's Proposal - Jinwoo Recap"
+      },
+      {
+        "video_id": "H8GIzUs4iYQ",
+        "video_title": "She Ditched My Birthday For Her Art Crush - Hein Recap"
+      },
+      {
+        "video_id": "I7mNKE7mbWw",
+        "video_title": "Unsent Letters At The Grave - Hein Recap"
+      },
+      {
+        "video_id": "JKhn9JGaPY8",
+        "video_title": "How A \"Greedy Opportunist\" Bore The Weight Of Two Dynasties! - Hein Recap"
+      },
+      {
+        "video_id": "K2iI10BMw98",
+        "video_title": "I Let The Nation Extract My Memories - Hein Recap"
+      },
+      {
+        "video_id": "K4I3MC4bAvo",
+        "video_title": "Reborn: I Chose My Loyal Heiress Girlfriend Over My Cheating Crush, Leading to a Happy Ending"
+      },
+      {
+        "video_id": "KH8DW60j-3o",
+        "video_title": "📕After we reconciled, I stopped chasing her. She proposed—my revenge began at city hall"
+      },
+      {
+        "video_id": "KM6YKFEZ6AI",
+        "video_title": "Leaving The Traitorous Family To Despair! - Hein Recap"
+      },
+      {
+        "video_id": "KgZsH_ihLz0",
+        "video_title": "📕She stayed out till 3 AM; I canceled the venue, wedding, and honeymoon—she rushed home like crazy!"
+      },
+      {
+        "video_id": "KqinxI0DjmE",
+        "video_title": "Divorced On 5th Anniversary! - Hein Recap"
+      },
+      {
+        "video_id": "KyyIlVMR-1E",
+        "video_title": "My Wife Demanded A Predatory Divorce - Jinwoo Recap"
+      },
+      {
+        "video_id": "MAl1JDkhEUQ",
+        "video_title": "📕My rich ex-wife brought our son to take me back—only to find me living my best life without them!"
+      },
+      {
+        "video_id": "MDkKEuypcyc",
+        "video_title": "I Can Hear My Sexy CEO Wife's Thoughts—She Acts Cold, but Secretly Plans to Trap Me Forever?!"
+      },
+      {
+        "video_id": "N1k582_U8P8",
+        "video_title": "Mind-Reading: For Saving Me, My Yandere Villainess Crush Actually Killed the System's 99 Players?!"
+      },
+      {
+        "video_id": "NxHUvtr1WNs",
+        "video_title": "My GF & Mother Both Betrayed Me for My Brother, so I Married the Sexy Heiress—but Now They Rue!"
+      },
+      {
+        "video_id": "QfrpsGlVUoY",
+        "video_title": "📕I called my GF my first love. The campus queen snapped—then found she'd erased all proof we dated!"
+      },
+      {
+        "video_id": "RRN1_tDWnBs",
+        "video_title": "I Found A Secret Room Of My Photos - Hein Recap"
+      },
+      {
+        "video_id": "SZZaMGfYJ0M",
+        "video_title": "My 5-Year Devotion Was Just A Transaction To Revive My Girlfriend - Jinwoo Recap"
+      },
+      {
+        "video_id": "V_oeQsmasFM",
+        "video_title": "📕My wife cheated with her bestie’s boyfriend; her bestie proposed revenge, but her method stunned me"
+      },
+      {
+        "video_id": "ViUdX8alMys",
+        "video_title": "The Arrogant Blind CEO Who Discarded Her True Savior! - Jinwoo Recap"
+      },
+      {
+        "video_id": "YqWAnbgwisA",
+        "video_title": "📕She married him, then realized she loved me. I smiled and told her why I chased her—she broke!"
+      },
+      {
+        "video_id": "ZBOH21g61cw",
+        "video_title": "The Novel-Addicted Assistant - Hein Recap"
+      },
+      {
+        "video_id": "ZS_4Ej66uDM",
+        "video_title": "Reborn: My Entire Family Betrayed Me for the Fake Heir, so I Married the Sweet Heiress—Now They Rue!"
+      },
+      {
+        "video_id": "_6QRVw8oq70",
+        "video_title": "My CEO Wife Gave Me $8M to to Order Bar Girls So I Won't Bother Her Date with 1st Love—Now She Rues!"
+      },
+      {
+        "video_id": "_vNEhhi3nws",
+        "video_title": "My Billionaire Wife Paid Me $100M To Leave, So I Turned It Into $10 Billion! - Hein Recap"
+      },
+      {
+        "video_id": "a1V0vi-5fEk",
+        "video_title": "📕My ex failed to marry rich, saw me on TV and wanted me back—then the next shot made her break down!"
+      },
+      {
+        "video_id": "bm1vRaNE66I",
+        "video_title": "📕I left without a word; she thought I’d never last 2 days—until I unfriended her, quit, and moved!"
+      },
+      {
+        "video_id": "cZQg93MFytE",
+        "video_title": "Expired Love Can't Be Revived - Hein Recap"
+      },
+      {
+        "video_id": "cv8G5y6XfDw",
+        "video_title": "My Dad Married A Billionaire, And Her CEO Daughter Was My Secret Online Rival! - Jinwoo Recap"
+      },
+      {
+        "video_id": "d7F57As85l0",
+        "video_title": "NOO, My Bride Arrested My Dad At The Altar! - Jinwoo Recap"
+      },
+      {
+        "video_id": "dl7FiJJDoh0",
+        "video_title": "I Transmigrated Into A Trash Son-In-Law - Hein Recap"
+      },
+      {
+        "video_id": "eC75umB-SHs",
+        "video_title": "I Have A Gossip System - Jinwoo Recap"
+      },
+      {
+        "video_id": "eHVZ1yAvKsA",
+        "video_title": "📕Her new admirer warned me not to hurt my childhood sweetheart. I laughed—hurt her? She’s insane!"
+      },
+      {
+        "video_id": "etDjkgcRGNo",
+        "video_title": "📕The college girl I kept said she was shy—I caught her with another guy. Fine, her roomie’s my type"
+      },
+      {
+        "video_id": "fno_FBKY0sE",
+        "video_title": "Reborn: My 5 Beautiful Sisters Can Hear My Thoughts—but Now They Regret It!"
+      },
+      {
+        "video_id": "gCnlYvG4-5A",
+        "video_title": "Raised A Villainess: She Went Mad! - Jinwoo Recap"
+      },
+      {
+        "video_id": "hfvuBTFcEl0",
+        "video_title": "I Let My In-Laws Kick Me Out For Her Childhood Sweetheart, Unaware I Have $300M! - Hein Recap"
+      },
+      {
+        "video_id": "hgAAa0DWCcU",
+        "video_title": "Rebirth: I Choose My Cute Crush Instead of the Sexy Heiress, Heading Toward a Happy Ending!"
+      },
+      {
+        "video_id": "iJ3SMkaAa1M",
+        "video_title": "📕My fiancée sent a pregnancy test, then unsent it. When she came back for me, I’d married someone!"
+      },
+      {
+        "video_id": "ioHg-Fa7-18",
+        "video_title": "I Faked Being A Trash Househusband To Divorce My Wife - Jinwoo Recap"
+      },
+      {
+        "video_id": "isihpc5r1UA",
+        "video_title": "📕I left her with nothing; she thought that was revenge—until her first love ditched her for this!"
+      },
+      {
+        "video_id": "it2BKpKdNy8",
+        "video_title": "I Just Want To Be A Background NPC - Jinwoo Recap"
+      },
+      {
+        "video_id": "jCMa8FP8eqo",
+        "video_title": "Reborn: I Chose the Cute Heiress Instead of the Driver's Daughter—but Now She Rues"
+      },
+      {
+        "video_id": "jkZ3fDsOEaM",
+        "video_title": "Reuniting with My Heiress Ex-GF in the Elevator: She Panicked When She Saw the Child in My Arms"
+      },
+      {
+        "video_id": "kiNWc1r-6Fg",
+        "video_title": "\"Broke Nobody\" Is Teacher Cas! - Jinwoo Recap"
+      },
+      {
+        "video_id": "mHZowXumvNs",
+        "video_title": "A Billionaire Hired Me To Fake Being His Son, But His Daughters Fell In Love With Me! - Jinwoo Recap"
+      },
+      {
+        "video_id": "mNoIfjZzwEc",
+        "video_title": "I Was Locked In My Family Closet For 8 Years - Jinwoo Reca["
+      },
+      {
+        "video_id": "mXMg15RcleU",
+        "video_title": "Reborn: My 6 Sisters & Fiancée All Betrayed Me for The Fake Heir—so I Wed the Sexy CEO—Now They Rue!"
+      },
+      {
+        "video_id": "miaJ4DQk3m4",
+        "video_title": "I Catfished My Wife As Her High School Ex Just To Get A Divorce! - Hein Recap"
+      },
+      {
+        "video_id": "muxk2be9b3g",
+        "video_title": "📕My GF exploded over dinner with another woman. I said, “I didn’t cheat”—her own words shut her up!"
+      },
+      {
+        "video_id": "mw8Bcg2G-8o",
+        "video_title": "My Sexy CEO Wife Tested Me by Faking Poverty—but 6 Months Later She Begs Me for Kisses Every Day?!"
+      },
+      {
+        "video_id": "ox8CMjoszTQ",
+        "video_title": "📕My boss GF faked amnesia and asked who I was. I said “just a coworker.” She relaxed—and so did I!"
+      },
+      {
+        "video_id": "q-ZoiMxj4DI",
+        "video_title": "My CEO Wife & Daughter All Betrayed Me For My Half-brother, so I Wed the Sweet Heiress—Now They Rue!"
+      },
+      {
+        "video_id": "quzxCFm07zM",
+        "video_title": "My CEO Wife Gave Me $5M to Divorce Her While I Had Amnesia, so I Chose the Sexy Heiress—Now She Rues"
+      },
+      {
+        "video_id": "ryys-jNzfMg",
+        "video_title": "My 5 Sexy Fiancées All Despised Me for Being a Hick—‘til They Discovered I Was a Billionaire CEO"
+      },
+      {
+        "video_id": "t6_zHlXB39o",
+        "video_title": "📕My wife brought her sick first love home and told me not to worry—so I took in my longtime crush!"
+      },
+      {
+        "video_id": "w10fgdwiuFI",
+        "video_title": "Reborn: My Sexy Heiress Fiancée Overheard My Thoughts While Breaking Our Engagement—Now She Rues!"
+      },
+      {
+        "video_id": "wUPj55kldak",
+        "video_title": "Zero Tolerance For Drama - Jinwoo Recap"
+      },
+      {
+        "video_id": "xHswmBIZeU4",
+        "video_title": "My Parents' 7-Year Cold Marriage Shocked Everyone When Mom Chose The Fake Son! - Jinwoo Recap"
+      },
+      {
+        "video_id": "y5eUE0-4l3o",
+        "video_title": "My Wife Skipped Our Son's Funeral For Her Ex - Jinwoo Recap"
+      },
+      {
+        "video_id": "y7dcODn9qyU",
+        "video_title": "The Empty Ring Box - Hein Recap"
+      },
+      {
+        "video_id": "yni_4Y1YCpU",
+        "video_title": "My Heiress Fiancée Called Off Our Wedding for Her Crush, so I Married Her Sexy Sister—Now She Rues!"
+      },
+      {
+        "video_id": "zXeifgaRYDM",
+        "video_title": "📕An intern sent pics with my CEO wife to taunt me—I called cops at their office; one line froze them"
+      },
+      {
+        "video_id": "zgxcHXJIUJ4",
+        "video_title": "My Innocent Students Turned Into Demon Lords - Jinwoo Reca["
+      }
+    ],
+    "truncated_title_count": 0
+  },
+  "embedding_cache": "D:\\Green Tea\\data\\cache\\title_embeddings_f3dfe173700dea5eb96a19f61981375b7f412316cbb1085b9548c495cc9f19e8.npz",
+  "cache_hit": true,
+  "semantic_transform": "clip cosine [-1,1] to [0,1]; raw cosine retained in pairs",
+  "nearest_selection": "semantic; ties resolved by ascending video_id; lexical-only IDs also included",
+  "lexical": "TF-IDF unigrams with smooth IDF and L2 norm; Jaccard token sets; Unicode alphanumeric lowercase; no stopword removal",
+  "group_threshold": 0.8,
+  "counts": {
+    "pairs": 3160,
+    "neighbors": 80,
+    "channel_summary": 4,
+    "matrix": 10,
+    "groups": 80
+  },
+  "outputs": {
+    "pairs": "D:\\Green Tea\\data\\exports\\title_similarity_pairs.csv",
+    "neighbors": "D:\\Green Tea\\data\\exports\\title_similarity_neighbors.csv",
+    "channel_summary": "D:\\Green Tea\\data\\exports\\title_similarity_channel_summary.csv",
+    "matrix": "D:\\Green Tea\\data\\exports\\title_similarity_channel_matrix.csv",
+    "groups": "D:\\Green Tea\\data\\exports\\title_similarity_groups.csv"
+  },
+  "output_sha256": {
+    "pairs": "6d1961a5d375b3d945a61216f249d1b8164568a46d76bdcb450b79839327a8ee",
+    "neighbors": "9c2b093117e0d047f8b97bdd4ad6d3954e2419165c9e0586d22ff40967c202a1",
+    "channel_summary": "ae68e75be63e0eea1600fd936d8791302e5b092a547838054d6e62ba7fa0a0f7",
+    "matrix": "92b0899980bc1ba4275eb993f426139a2b6244265dded219e90ed0201f26a344",
+    "groups": "2fcbc291e27c9f6eb13512f009aa6615091ac2fbfa54703f972704beb4f7cfda"
+  }
+}

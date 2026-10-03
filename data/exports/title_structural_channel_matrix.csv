@@ -1,0 +1,11 @@
+﻿channel_id_a,channel_a,channel_id_b,channel_b,same_channel,compared_video_pairs,exact_template_eligible_pairs,exact_template_match_count,exact_template_match_proportion,mean_structural_event_jaccard,median_structural_event_jaccard,valid_structural_event_jaccard_pairs,mean_structural_sequence_similarity,median_structural_sequence_similarity,valid_structural_sequence_similarity_pairs,mean_structural_role_similarity,median_structural_role_similarity,valid_structural_role_similarity_pairs
+UC4Dp5pw1_R4gv0N-FBeyB8A,Meow's Cafe,UC4Dp5pw1_R4gv0N-FBeyB8A,Meow's Cafe,True,190,1,0,0.0,0.125,0.0,28,0.14285714285714285,0.0,28,0.6412280701754385,0.5,190
+UC4Dp5pw1_R4gv0N-FBeyB8A,Meow's Cafe,UCHPA4fgVIFf4Wfae6-f5qNQ,Hein Recap,False,400,0,0,,0.015625,0.0,64,0.015625,0.0,64,0.5131410256410257,0.5,260
+UC4Dp5pw1_R4gv0N-FBeyB8A,Meow's Cafe,UCeLOCj__efnDzhPUu7tlOWg,Yee Lovestory,False,400,24,0,0.0,0.024189814814814813,0.0,144,0.037037037037037035,0.0,144,0.4291666666666667,0.3333333333333333,400
+UC4Dp5pw1_R4gv0N-FBeyB8A,Meow's Cafe,UChIHuKSI-djAtbWK9mvHSww,Jinwoo Recap,False,400,0,0,,0.0625,0.0,48,0.06944444444444443,0.0,48,0.49460784313725487,0.5,340
+UCHPA4fgVIFf4Wfae6-f5qNQ,Hein Recap,UCHPA4fgVIFf4Wfae6-f5qNQ,Hein Recap,True,190,0,0,,0.03571428571428571,0.0,28,0.03571428571428571,0.0,28,0.44871794871794873,0.5,78
+UCHPA4fgVIFf4Wfae6-f5qNQ,Hein Recap,UCeLOCj__efnDzhPUu7tlOWg,Yee Lovestory,False,400,0,0,,0.03587962962962962,0.0,144,0.049305555555555554,0.0,144,0.49705128205128213,0.5,260
+UCHPA4fgVIFf4Wfae6-f5qNQ,Hein Recap,UChIHuKSI-djAtbWK9mvHSww,Jinwoo Recap,False,400,0,0,,0.125,0.0,48,0.125,0.0,48,0.46304675716440424,0.5,221
+UCeLOCj__efnDzhPUu7tlOWg,Yee Lovestory,UCeLOCj__efnDzhPUu7tlOWg,Yee Lovestory,True,190,66,3,0.045454545454545456,0.22352941176470587,0.2,153,0.30616246498599436,0.3333333333333333,153,0.6006140350877194,0.6,190
+UCeLOCj__efnDzhPUu7tlOWg,Yee Lovestory,UChIHuKSI-djAtbWK9mvHSww,Jinwoo Recap,False,400,0,0,,0.041666666666666664,0.0,108,0.062345679012345674,0.0,108,0.48078431372549013,0.5,340
+UChIHuKSI-djAtbWK9mvHSww,Jinwoo Recap,UChIHuKSI-djAtbWK9mvHSww,Jinwoo Recap,True,190,0,0,,0.13333333333333333,0.0,15,0.13333333333333333,0.0,15,0.43014705882352944,0.41666666666666663,136

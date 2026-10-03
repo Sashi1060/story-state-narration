@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-03T03:48:35.204505+00:00",
+  "extraction_method": "conservative-title-rules-v1",
+  "model": null,
+  "vocabulary_version": "1.0.1",
+  "vocabulary_hash": "269796c2a67109de72e6c3ce9f42a4351d1e828e2c79b58e38c06c1ca3a3f416",
+  "inputs": {
+    "D:\\Green Tea\\data\\exports\\research_video_dataset.csv": "de439316f9f1c4502497556135de4979243f18126b199d044559fd9797e26127",
+    "D:\\Green Tea\\data\\exports\\title_similarity_pairs.csv": "6d1961a5d375b3d945a61216f249d1b8164568a46d76bdcb450b79839327a8ee",
+    "D:\\Green Tea\\config\\narrative_vocabulary.json": "269796c2a67109de72e6c3ce9f42a4351d1e828e2c79b58e38c06c1ca3a3f416"
+  },
+  "extraction_code_sha256": "a6319131069b4405ad72ce2dd4dfd6a4ded56ad18c216b7c86f85fa28124ee78",
+  "environment": {
+    "python": "3.14.3",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "cache_hits": 80,
+  "vocabulary_sizes": {
+    "events": 29,
+    "roles": 6,
+    "relations": 4
+  },
+  "methods": {
+    "sequence": "2*LCS/(len(a)+len(b))",
+    "events": "Jaccard event label sets",
+    "roles": "Jaccard coarse role mention sets",
+    "exact": "equality of nonempty >=2-event templates",
+    "confidence": "categorical rule evidence status, not a probability",
+    "ordering": "title mention order, not established narrative chronology"
+  },
+  "outputs": {
+    "features": "D:\\Green Tea\\data\\exports\\title_structural_features.csv",
+    "pairs": "D:\\Green Tea\\data\\exports\\title_structural_similarity_pairs.csv",
+    "template_summary": "D:\\Green Tea\\data\\exports\\title_template_summary.csv",
+    "matrix": "D:\\Green Tea\\data\\exports\\title_structural_channel_matrix.csv",
+    "validation": "D:\\Green Tea\\data\\exports\\title_structural_validation_sample.csv"
+  },
+  "output_hashes": {
+    "features": "1cf4c86ef12e8dd7bc0d48c89078eac3177dd4e4ca98fb18f7b6094e778f4f8a",
+    "pairs": "fcb8c75304352c1e40d607eede0cb23602892fd5adc11c7cb19d12336549ef19",
+    "template_summary": "f6a5c706aef34a09e6db76fa520a5aa390ceaa1af7ff5bf1bad5f64494e7c5e4",
+    "matrix": "7c4f7a2bfe75d4776bce7b3d3411339ccf18d8699d903c249e9c60dfe48a043c",
+    "validation": "b39935f7b74ab26b6af47645f30a9b6ae59dfa66dc9b2582035efbd0996a0a31"
+  }
+}

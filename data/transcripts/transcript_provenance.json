@@ -1,0 +1,43 @@
+{
+ "phase": 6,
+ "run_started": "2026-10-03T07:06:09.304663+00:00",
+ "run_finished": "2026-10-03T07:06:10.827037+00:00",
+ "outcome": "stopped early: YouTube blocked requests; rerun later",
+ "library": "youtube-transcript-api",
+ "library_version": "1.2.4",
+ "language_priority": [
+  "en manual",
+  "en generated",
+  "first listed (no translation)"
+ ],
+ "input": "data/youtube_research.db",
+ "videos_in_manifest": 80,
+ "status_counts": {
+  "available_manual": 0,
+  "available_generated": 23,
+  "transcripts_disabled": 0,
+  "no_transcript_found": 0,
+  "video_unavailable": 0,
+  "request_blocked": 57,
+  "retrieval_failed": 0
+ },
+ "languages": [
+  "en"
+ ],
+ "total_words": 280175,
+ "word_timing": {
+  "word_level": 23,
+  "segment_only": 0,
+  "failed": 0,
+  "not_attempted": 1
+ },
+ "status_vocabulary": {
+  "available_manual": "Uploaded (manual) caption track retrieved",
+  "available_generated": "YouTube auto-generated (ASR) caption track retrieved",
+  "transcripts_disabled": "Captions are disabled for the video",
+  "no_transcript_found": "No caption track is listed for the video",
+  "video_unavailable": "Video unavailable, unplayable, age-restricted or invalid; not circumvented",
+  "request_blocked": "YouTube blocked the request (rate limit/IP block); run stopped early",
+  "retrieval_failed": "Network, parsing or other unexpected failure"
+ }
+}

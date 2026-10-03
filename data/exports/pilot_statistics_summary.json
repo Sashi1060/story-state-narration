@@ -1,0 +1,195 @@
+{
+ "permutation_tests": {
+  "semantic_original": {
+   "within_mean": 0.415446,
+   "cross_mean": 0.268964,
+   "observed_gap": 0.146482,
+   "null_mean": 1.8e-05,
+   "null_95th_percentile": 0.008106,
+   "null_max": 0.02628,
+   "permutations": 10000,
+   "p_value": 9.999000099990002e-05
+  },
+  "semantic_debranded": {
+   "within_mean": 0.332875,
+   "cross_mean": 0.255136,
+   "observed_gap": 0.077739,
+   "null_mean": 3.2e-05,
+   "null_95th_percentile": 0.007134,
+   "null_max": 0.02242,
+   "permutations": 10000,
+   "p_value": 9.999000099990002e-05
+  },
+  "tfidf_original": {
+   "within_mean": 0.113069,
+   "cross_mean": 0.047979,
+   "observed_gap": 0.065089,
+   "null_mean": 2.5e-05,
+   "null_95th_percentile": 0.004105,
+   "null_max": 0.012251,
+   "permutations": 10000,
+   "p_value": 9.999000099990002e-05
+  },
+  "tfidf_debranded": {
+   "within_mean": 0.080475,
+   "cross_mean": 0.045559,
+   "observed_gap": 0.034916,
+   "null_mean": 2.1e-05,
+   "null_95th_percentile": 0.003787,
+   "null_max": 0.011891,
+   "permutations": 10000,
+   "p_value": 9.999000099990002e-05
+  },
+  "jaccard_original": {
+   "within_mean": 0.142758,
+   "cross_mean": 0.065373,
+   "observed_gap": 0.077385,
+   "null_mean": 2.6e-05,
+   "null_95th_percentile": 0.004386,
+   "null_max": 0.011884,
+   "permutations": 10000,
+   "p_value": 9.999000099990002e-05
+  }
+ },
+ "per_channel_semantic": {
+  "Meow's Cafe": {
+   "within_semantic_original": 0.443106,
+   "cross_semantic_original": 0.276772,
+   "within_semantic_debranded": 0.443106,
+   "cross_semantic_debranded": 0.265291
+  },
+  "Hein Recap": {
+   "within_semantic_original": 0.307137,
+   "cross_semantic_original": 0.249456,
+   "within_semantic_debranded": 0.21167,
+   "cross_semantic_debranded": 0.231881
+  },
+  "Yee Lovestory": {
+   "within_semantic_original": 0.463236,
+   "cross_semantic_original": 0.286207,
+   "within_semantic_debranded": 0.463236,
+   "cross_semantic_debranded": 0.284313
+  },
+  "Jinwoo Recap": {
+   "within_semantic_original": 0.448306,
+   "cross_semantic_original": 0.263419,
+   "within_semantic_debranded": 0.213489,
+   "cross_semantic_debranded": 0.23906
+  }
+ },
+ "per_video_repetition_by_channel": {
+  "Hein Recap": {
+   "count": 19,
+   "median": 0.4603,
+   "mean": 0.4724,
+   "max": 0.6686
+  },
+  "Jinwoo Recap": {
+   "count": 19,
+   "median": 0.5738,
+   "mean": 0.5876,
+   "max": 0.7654
+  },
+  "Meow's Cafe": {
+   "count": 19,
+   "median": 0.5396,
+   "mean": 0.5499,
+   "max": 0.6522
+  },
+  "Yee Lovestory": {
+   "count": 19,
+   "median": 0.6585,
+   "mean": 0.6481,
+   "max": 0.9336
+  }
+ },
+ "age": {
+  "overall_views_vs_age": {
+   "rho": 0.6453,
+   "p_value": 0.0,
+   "n": 80
+  },
+  "by_channel_age_days": {
+   "Hein Recap": {
+    "min": 0.5,
+    "median": 10.1,
+    "max": 19.6
+   },
+   "Jinwoo Recap": {
+    "min": 0.5,
+    "median": 10.0,
+    "max": 19.5
+   },
+   "Meow's Cafe": {
+    "min": 0.4,
+    "median": 7.9,
+    "max": 15.4
+   },
+   "Yee Lovestory": {
+    "min": 111.3,
+    "median": 201.8,
+    "max": 212.2
+   }
+  }
+ },
+ "repetition_vs_views_per_day": {
+  "note": "Exploratory, descriptive association only; small n, no causal interpretation.",
+  "within_channel": {
+   "Hein Recap": {
+    "rho": 0.2333,
+    "p_value": 0.3364,
+    "n": 19
+   },
+   "Jinwoo Recap": {
+    "rho": 0.4316,
+    "p_value": 0.065,
+    "n": 19
+   },
+   "Meow's Cafe": {
+    "rho": 0.3316,
+    "p_value": 0.1655,
+    "n": 19
+   },
+   "Yee Lovestory": {
+    "rho": 0.1421,
+    "p_value": 0.5617,
+    "n": 19
+   }
+  },
+  "pooled_within_channel_ranks": {
+   "rho": 0.2884,
+   "p_value": 0.0115,
+   "n": 76
+  },
+  "pooled_partial_controlling_upload_order": {
+   "rho": 0.0119,
+   "p_value": 0.9188,
+   "n": 76
+  },
+  "upload_order_vs_repetition": {
+   "rho": 0.4447,
+   "p_value": 0.0001,
+   "n": 76
+  },
+  "upload_order_vs_views_per_day": {
+   "rho": 0.6272,
+   "p_value": 0.0,
+   "n": 76
+  }
+ },
+ "debranded_titles_changed": 38,
+ "provenance": {
+  "generated": "2026-10-03T06:42:29.626971+00:00",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "seed": 20261003,
+  "versions": {
+   "numpy": "2.5.3",
+   "pandas": "3.0.6",
+   "scipy": "1.18.1",
+   "scikit-learn": "1.9.1"
+  },
+  "input": "data/exports/title_structural_features.csv",
+  "videos": 80
+ }
+}
